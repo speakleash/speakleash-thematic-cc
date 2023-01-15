@@ -1,0 +1,22 @@
+{
+    "project": "SpeakLeash",
+    "name": "medical-cc",
+    "description": "Articles from Polish medical websites downloaded from the CC index and filtered for text length and quality.",
+    "license": "",
+    "language": "pl",
+    "sources": [
+        {
+            "name": "https://commoncrawl.org/",
+            "url": "",
+            "license": ""
+        }
+    ],
+    "websites" : [
+        {"domain" : "*.mp.pl"},
+        {"domain" : "*.abczdrowie.pl"},
+        {"domain" : "*wylecz.to"},
+        {"domain" : "*.mamazone.pl"},
+        {"domain" : "*.pulsmedycyny.pl"},
+        {"domain" : "*.mzdrowie.pl"}
+    ] 
+}
